@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style: none;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5%;
+}
+#ld{
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+}
+#ld li{
+	width: 90px;
+	height: 40px;
+	border-bottom: 1px solid aliceblue;
+	background: blueviolet;
+}
+#ld-left{
+	width:100px;
+	height:150px;
+}
+
